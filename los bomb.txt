@@ -1,0 +1,47 @@
+classes.dex > com > sammods > privacy
+
+.method public static EnenraBomb(I)I
+    .registers 2
+
+    const-string v0, "Bomb iOS"
+
+    invoke-static {v0}, Lcom/whatsapp/yo/shp;->getBooleanPriv(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+--------------------------------------------------------------------------------
+serch cheyuka.   Landroid/text/method/TextKeyListener;->clear.   ith conversation boxil aan ullath A0g adiyit paste aakuka
+
+const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/whatsapp/yo/yo;->EnenraBomb(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+    
+--------------------------------------------------------------------------------
+
+res > xml > sam_privacy
+
+<CheckBoxPreference
+                    android:title="Bomb Text iOS"
+                    android:key="Bomb iOS"   
+                    android:defaultValue="false" />

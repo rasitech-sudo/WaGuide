@@ -1,0 +1,61 @@
+
+<SwitchPreference
+            android:title="Auto Forward"
+            android:key="autoforward"
+            android:summary="Will not Cancel Selected Messages After Forward" />
+
+
+
+.method public static autoforward(I)I
+    .registers 3
+
+    const-string v1, "autoforward"
+
+    invoke-static {v1}, Lcom/whatsapp/yo/shp;->getBooleanPriv(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_a
+    return p0
+.end method
+
+
+
+
+conversation/forward/failed.  search cheyuka
+
+const/4 v1, 0x1
+
+    invoke-static {v1}, Lcom/whatsapp/yo/yo;->autoforward(I)I
+
+    move-result v1
+
+    if-nez v1, :cond_299
+
+    return-void
+
+    :cond_299
+    
+    
+    
+    starred/forward/failed"
+    
+    
+    
+        const/4 v0, 0x1
+
+    invoke-static {v0}, Lcom/whatsapp/yo/yo;->autoforward(I)I
+
+    move-result v0
+
+    if-nez v0, :cond_8c
+
+    return-void
+
+    :cond_8c

@@ -1,0 +1,62 @@
+xml/privacy
+
+----------------------------------------------------------------------------------------------------
+	<PreferenceScreen android:icon="@drawable/app_icon" android:title="10 APPS * GAME" android:summary="HYPER MOD">
+		<PreferenceScreen android:title="ROBO_TEXT" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.robo.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="CALCULATE" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.Calculator.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="CAR_GAME" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.car.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="FLY_BIRDS" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.flybird.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="AREOPLAYN_GANE" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.flying.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="MATHS_GAMES" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.math.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="PANDA VS DEVID" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.panda.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="TEXT_TO_SPEECH" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.textto.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="ZIP_TO_ZIP" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.lakshitha.hyper.zip.MainActivity" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="SPINER_GAME" android:summary="MADE BY LAKSHITHA">
+			<intent android:targetPackage="com.fmwhatsapp" android:targetClass="com.spiner.MainActivity" />
+				</PreferenceScreen>
+
+---------------------------------------------------------------------------------------------------
+
+main activity
+
+---------------------------------------------------------------------------------------------------
+
+
+<activity android:name="com.lakshitha.hyper.robo.MainActivity" />
+<activity android:name="com.lakshitha.hyper.Calculator.MainActivity" />
+<activity android:name="com.lakshitha.hyper.Calculator.SplashActivity" />
+<activity android:name="com.lakshitha.hyper.car.MainActivity" />
+<activity android:name="com.lakshitha.hyper.flybird.MainActivity" />
+<activity android:name="com.lakshitha.hyper.flybird.FlappyActivity" />
+<activity android:name="com.lakshitha.hyper.flying.MainActivity" />
+<activity android:name="com.lakshitha.hyper.math.MainActivity" />
+<activity android:name="com.lakshitha.hyper.panda.MainActivity" />
+<activity android:name="com.lakshitha.hyper.panda.SplashActivity" />
+<activity android:name="com.lakshitha.hyper.panda.DebugActivity" />
+<activity android:name="com.lakshitha.hyper.textto.MainActivity" />
+<activity android:name="com.lakshitha.hyper.zip.MainActivity" />
+<activity android:name="com.spiner.MainActivity" />
+
+
+
+
+   💗HYPER MOD💗
+💙SL TERROR FAMILY💙

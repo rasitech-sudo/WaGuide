@@ -1,0 +1,24 @@
+
+"userActionForwardMessage/base64-decode/error"
+
+search type-smali
+
+ඕක search කරහම එන එක විවු කරලා ඒකෙ ටිකක් යටට යනකොට හම්බෙයි move-object/from16  ඔන්න ඔය වගේ කෝඩ් එක ලග 3ක් ආං ඒ තුනට යට තියෙන 0x1 ට යටින් මේක දාලා v හදන්න.
+
+
+invoke-static {v1}, Lcom/sammods/Privacy;->disableFwd(I)I
+
+    move-result v1
+    
+    
+    
+    
+    
+♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+sam privacy.xml
+
+
+<SwitchPreference android:title="Disable Forward" android:key="DisableFwd" android:summary="Disable Forwarded tag when forwading" android:defaultValue="false" />
+
+    
+    

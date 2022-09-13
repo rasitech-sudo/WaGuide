@@ -1,0 +1,52 @@
+  
+        
+superadmin) enn classes.dex samil itt search cheyuka
+athil past aakuka
+  
+  
+    invoke-static {v8}, Lcom/whatsapp/yo/yo;->Fake_Admin_Nk_nandhu(I)I
+
+    move-result v8
+
+
+
+
+    invoke-static {v13}, Lcom/whatsapp/yo/yo;->Fake_Admin_Nk_nandhu(I)I
+
+    move-result v13
+    
+
+________________Dex1/Explore/yo_______________
+
+
+.method public static Fake_Admin_Nk_nandhu(I)I
+    .registers 3
+
+    const-string v1, "Fake_Admin_Nk_nandhu"
+
+    invoke-static {v1}, Lcom/whatsapp/yo/shp;->getBooleanPriv(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x5
+
+    return v0
+
+    :cond_a
+    return p0
+.end method
+
+
+________________xml/yo_privacy_______________
+
+
+    <SwitchPreference
+        android:title="FAKE GROUP ADMIN"
+        android:key="Fake_Admin_Nk_nandhu"
+        android:summary="fake group admin on/off "
+        android:defaultValue="false" />
+______________________________________________________________
+
+

@@ -1,0 +1,64 @@
+----------------------------------------------------------------------------------------------------------------------------------
+voice duration button
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+    <SwitchPreference
+        android:title="Fake Voice Duration "
+        android:key="NKfakeduration"
+        android:summary="unlimited fake time" />
+
+
+
+.method public static NKMODS1()I
+    .registers 1
+
+    .line 25
+    const-string v0, "NKfakeduration"
+
+    invoke-static {v0}, Lcom/whatsapp/yo/shp;->getBooleanPriv(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    goto :goto_b
+
+    :cond_a
+    const/4 v0, 0x0
+
+    :goto_b
+    return v0
+.end method
+
+voicenote/stopvoicenote duration
+
+
+0x63.     0x3e8 ithinde idayil past cheyuka
+
+
+invoke-static {}, Lcom/whatsapp/yo/yo;->NKMODS1()I
+
+    move-result v4
+
+    if-eqz v4, :cond_91
+
+    const-wide/16 v14, 0x1
+
+    :cond_91
+
+
+0x3e8.   V14 ullil past cheyuka
+
+invoke-static {}, Lcom/whatsapp/yo/yo;->NKMODS1()I
+
+    move-result v4
+
+    if-eqz v4, :cond_9b
+
+    const-wide/16 v12, 0x1
+
+    :cond_9b

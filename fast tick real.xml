@@ -1,0 +1,13 @@
+fast send virtex real 100%
+
+clasdex cari "ReadyJobsProducer" masuk cari  "util/Set;->add(Ljava"  / kasih pagar di invoke (#) 
+
+cari  "messagingXmppHandler/onMessageStatusUpdate receipt in queue; skipping stanzaKey:"
+
+masuk cari "Ljava/util/Set;->add(Ljava/lang/Object;)Z" / kasih pagar di invoke #
+
+cari "SyncDeviceAndResendMessageJob" clasname masuk:
+"Ljava/util/Set;->add(Ljava/lang/Object;)Z"
+
+Cari "Ljava/util/Set;->add(Ljava/lang/Object;)Z" kalo ada 3 sisa in yg paling bawah aja
+Yg 2 di atas hapus / ga kasi #

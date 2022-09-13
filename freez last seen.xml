@@ -1,0 +1,36 @@
+"AvailabilityTimeoutAlarmBroadcastReceiver/startAvailableTimeoutAlarm AlarmManager is null"
+
+search type-smali
+
+ඕක search කරහම එන එක විවු කරලා ඒකෙ "setIfUnavailable" 👈මේක search කරහම එන method එකේ .end annotation එක යටින් මේක දාන්න.
+
+
+invoke-static {}, Lcom/sammods/Privacy;->HideSeen()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_7
+
+    const/4 p1, 0x0
+
+    :cond_7
+    
+    
+    
+    
+    
+    
+    
+    
+Sam Privacy.xml
+
+
+
+
+    <SwitchPreference android:title="Freeze Last Seen" android:key="HideSeen" android:summary="Freeze Your Last Seen" android:defaultValue="false" />
+    
+    
+    
+    
+File Extract From Sam mods
+Extracted By -Naughty Binu    
