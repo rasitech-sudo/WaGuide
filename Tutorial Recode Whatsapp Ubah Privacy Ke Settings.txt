@@ -1,0 +1,40 @@
+---------------------------x---------------------------x---------------------------
+taruh di atas nomor 17
+
+
+Layout > preferences.xml
+
+		<com.whatsapp.settings.SettingsRowIconText android:id="@id/privacy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="Glave" app:settingsRowIconTextIcon="@drawable/ic_settings_settings"  app:settingsRowIconColor="@color/settings_icon" app:settingsRowIconTextSubText="@string/Glave2" app:settingsRowIconTextText="@string/Glave1" style="?settingsRowIconText" />
+
+
+---------------------------x---------------------------x---------------------------
+
+smail > com > whatsapp > settings.smali
+taruh paling bawah
+
+.method public Glave(Landroid/view/View;)V
+    .registers 4
+
+    new-instance v0, Landroid/content/Intent;
+
+    const-class v1, Lcom/sammods/Privacy;
+
+    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+
+    return-void
+.end method
+
+
+---------------------------x---------------------------x---------------------------
+ Values > strings.xml
+
+
+<string name="Glave1">sam_privacy</string>
+<string name="Glave2">Privacy and mode immune</string>
+
+---------------------------x---------------------------x---------------------------
+cari yang bawah terus yang bawah nya hapus
+
+em;->setShowAsAction(I)V

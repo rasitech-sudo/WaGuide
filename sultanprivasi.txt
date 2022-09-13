@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@7F1214EA"
+	>
+	<Preference
+		android:layout="@7F0D0599"
+		>
+	</Preference>
+	<PreferenceScreen
+		android:layout="@7F0D059B"
+		>
+		<Preference
+			android:layout="@7F0D0596"
+			android:selectable="false"
+			>
+		</Preference>
+		<PreferenceCategory
+			android:title="Umum"
+			android:key="cat_pg"
+			>
+			<SwitchPreference
+				android:icon="@7F08035F"
+				android:title="@7F121A8A"
+				android:key="HideSeen"
+				android:summary="@7F121A8B"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080353"
+				android:title="@7F121A73"
+				android:key="DisableFwd"
+				android:summary="@7F121A74"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F08054B"
+				android:title="@7F121A77"
+				android:key="BlueOnReply"
+				android:summary="@7F121A78"
+				android:dependency="C_HideRead"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080355"
+				android:title="@7F121A75"
+				android:key="Antirevoke"
+				android:summary="@7F121A76"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F0804A7"
+				android:title="@7F121A92"
+				android:key="samviewonce"
+				android:summary="@7F121A91"
+				android:defaultValue="true"
+				>
+			</SwitchPreference>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Status"
+			android:key="cat_pg"
+			>
+			<SwitchPreference
+				android:icon="@7F080354"
+				android:title="@7F121A8D"
+				android:key="hide_status"
+				android:summary="@7F121A8C"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="@7F121A93"
+			android:key="cat_pc"
+			>
+			<SwitchPreference
+				android:icon="@7F08054B"
+				android:title="@7F121A80"
+				android:key="C_HideRead"
+				android:summary="@7F121A82"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F08054F"
+				android:title="@7F121A84"
+				android:key="C_HideReceipt"
+				android:summary="@7F121A86"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F08055F"
+				android:title="@7F121A7C"
+				android:key="HidePlayC"
+				android:summary="@7F121A7E"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080356"
+				android:title="@7F121A88"
+				android:key="C_HideRecord"
+				android:summary="@7F121A89"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080359"
+				android:title="@7F121A7A"
+				android:key="C_HideCompose"
+				android:summary="@7F121A7B"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Groups"
+			android:key="cat_pg"
+			>
+			<SwitchPreference
+				android:icon="@7F08054B"
+				android:title="@7F121A80"
+				android:key="G_HideRead"
+				android:summary="@7F121A83"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F08054F"
+				android:title="@7F121A84"
+				android:key="G_HideReceipt"
+				android:summary="@7F121A87"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F08055F"
+				android:title="@7F121A7C"
+				android:key="G_HidePlayG"
+				android:summary="@7F121A7F"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080356"
+				android:title="@7F121A88"
+				android:key="G_HideRecord"
+				android:summary="@7F121A89"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080359"
+				android:title="@7F121A7A"
+				android:key="G_HideCompose"
+				android:summary="@7F121A7B"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="@7F1202DA"
+			android:key="cat_pb"
+			>
+			<SwitchPreference
+				android:icon="@7F08054B"
+				android:title="@7F121A80"
+				android:key="B_HideRead"
+				android:summary="@7F121A81"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F08054F"
+				android:title="@7F121A84"
+				android:key="B_HideReceipt"
+				android:summary="@7F121A85"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080356"
+				android:title="@7F121A88"
+				android:key="B_HideRecord"
+				android:summary="@7F121A89"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+			<SwitchPreference
+				android:icon="@7F080359"
+				android:title="@7F121A7A"
+				android:key="B_HideCompose"
+				android:summary="@7F121A7B"
+				android:defaultValue="false"
+				>
+			</SwitchPreference>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="@7F121A8E"
+			android:key="cat_rest"
+			>
+			<com.sammods.Activities
+				android:title="@7F121A90"
+				android:key="reset"
+				android:summary="@7F121A8F"
+				>
+			</com.sammods.Activities>
+		</PreferenceCategory>
+	</PreferenceScreen>
+	<PreferenceScreen
+		android:layout="@7F0D0598"
+		>
+		<intent
+			android:targetPackage="com.whatsapp.w4b"
+			android:action="android.intent.action.VIEW"
+			android:targetClass="com.wax.lou.Cache"
+			>
+		</intent>
+	</PreferenceScreen>
+	<PreferenceScreen
+		android:layout="@7F0D059A"
+		>
+		<PreferenceCategory
+			android:title="Other"
+			>
+		</PreferenceCategory>
+		<SwitchPreference
+			android:title="Tampilkan Tab Grup Terpisah di Beranda"
+			android:key="sultanseparate"
+			android:defaultValue="true"
+			>
+		</SwitchPreference>
+		<SwitchPreference
+			android:title="@7F121AA1"
+			android:key="yo_multi_account_menu"
+			android:defaultValue="true"
+			>
+		</SwitchPreference>
+		<SwitchPreference
+			android:title="Sembunyikan Obrolan yang Diarsipkan"
+			android:key="sultanarsip"
+			android:defaultValue="false"
+			>
+		</SwitchPreference>
+		<SwitchPreference
+			android:title="Mode pesawat"
+			android:key="sultandnd"
+			android:summary="Dengan mengaktifkan fitur ini anda tidak akan dapat mengirim atau menerima pesan / telepon"
+			android:defaultValue="false"
+			>
+		</SwitchPreference>
+		<SwitchPreference
+			android:title="Boom Text Manual"
+			android:key="SULTANModder"
+			android:summary="Aktifkan untuk mengaktifkan mode bom teks"
+			android:defaultValue="false"
+			>
+		</SwitchPreference>
+		<SwitchPreference
+			android:title="Pin chat lebih dari 3 obrolan"
+			android:key="sultangans"
+			android:summary="Bisa pin obrolan lebih dari 3 obrolan !"
+			android:defaultValue="false"
+			>
+		</SwitchPreference>
+		<PreferenceScreen
+			android:title="About"
+			android:summary="About WhatsApp"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.settings.About"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Share Number"
+			android:summary="Share Your WhatsApp Number"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.qrcode.contactqr.ContactQrActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Chat Settings"
+			android:summary="Open Chat Settings"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.settings.SettingsChatHistory"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Request Account Info"
+			android:summary="Request Your Account Info"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.report.ReportActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Delete Account"
+			android:summary="Delete Your WhatsApp Account"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.account.delete.DeleteAccountActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Group Privacy"
+			android:summary="Change Group Privacy"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.group.GroupAddPrivacyActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Lock WhatsApp Fingerprint"
+			android:summary="Lock Your WhatsApp"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.authentication.AppAuthSettingsActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Gallery"
+			android:summary="View WhatsApp Gallery"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.gallerypicker.GalleryPicker"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Group Call"
+			android:summary="Create Group Call"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.voipcalling.GroupCallParticipantPicker"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Share Location"
+			android:summary="Share Your Location"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.location.LocationPicker"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Sticker Store"
+			android:summary="Download Sticker From Store"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.stickers.StickerStoreActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Change Wallpaper"
+			android:summary="Change Wallpaper Chats"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.settings.chat.wallpaper.WallpaperCurrentPreviewActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Report Problem?"
+			android:summary="Report WhatsApp Problem"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.support.DescribeProblemActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Share Location"
+			android:summary="Share Your Location"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.location.LocationPicker"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Group Link QR"
+			android:summary="Share Group QR Link"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.GroupLinkQrActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Add Member"
+			android:summary="Add Group Member"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.contact.picker.AddGroupParticipantsSelector"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Contact Picker"
+			android:summary="Share Your Location"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.contact.picker.PhoneContactsSelector"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Create 0 Group"
+			android:summary="Create Group 0 Member"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.group.NewGroup"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="WhatsApp Settings"
+			android:summary="Open WhatsApp Settings"
+			>
+			<intent
+				android:targetPackage="com.whatsapp.w4b"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.whatsapp.settings.Settings"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Auto Clicker Plugin"
+			android:summary="Open Auto Clicker"
+			>
+			<intent
+				android:targetPackage="com.truedevelopersstudio.automatictap.autoclickes"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="com.truedevelopersstudio.autoclicker.activities.SplashActivity"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Notepad Plugin"
+			android:summary="Open Notepad Text Editor"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.note"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="WhatsApp Chat Plugin"
+			android:summary="Open WhatsApp Chat Link Maker"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.wa"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Baca Selengkapnya Maker Plugin"
+			android:summary="Open Baca Selengkapnya Maker"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.selengkapnya"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Text to Voice Plugin"
+			android:summary="Open Text to Voice"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.texttovoice"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Text Repeater Plugin"
+			android:summary="Open Text Repeater"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.tr"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="OCR Scanner Plugin"
+			android:summary="Open OCR Scanner"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.ocr"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Offline Mode Plugin"
+			android:summary="Open Offline Mode"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.note"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Metadata Plugin"
+			android:summary="Open Metadata"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.metadata"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="QR Generator Plugin"
+			android:summary="Open QR Generator"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.qr"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Browser Plugin"
+			android:summary="Open Web Browser"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.search"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Wifi Plugin"
+			android:summary="Open Wifi Information"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.wifi"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Music Player Plugin"
+			android:summary="Open Music Player"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.music"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Voice to Text Plugin"
+			android:summary="Open Voice to Text"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.voicetotext"
+				>
+			</intent>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="Ping Plugin"
+			android:summary="Open Ping Checker"
+			>
+			<intent
+				android:targetPackage="io.kodular.rasiadilsejahtera.Sosical_Media_Litf"
+				android:action="android.intent.action.VIEW"
+				android:targetClass="io.kodular.rasiadilsejahtera.Sosical_Media_Litf.ping"
+				>
+			</intent>
+		</PreferenceScreen>
+		<Preference
+			android:title="Check Update"
+			android:summary="Open Telegram and Chack Update"
+			>
+			<intent
+				android:action="android.intent.action.VIEW"
+				android:data="https://t.me/RasiTechChannel"
+				>
+			</intent>
+		</Preference>
+	</PreferenceScreen>
+	<PreferenceScreen
+		android:layout="@7F0D0597"
+		>
+		<PreferenceCategory
+			android:title="About Developer"
+			>
+		</PreferenceCategory>
+		<Preference
+			android:icon="@7F0806E7"
+			android:title="My WhatsApp"
+			android:summary="Chat WhatsApp Developer Kalau Ada Masalah / error"
+			>
+			<intent
+				android:action="android.intent.action.VIEW"
+				android:data="https://chat.whatsapp.com/Joohi1ofLrJ0otePmcEbOS"
+				>
+			</intent>
+		</Preference>
+		<Preference
+			android:icon="@7F0806E8"
+			android:title="My Telegram Channel"
+			android:summary="Subscribe Telegram Channel Developer Untuk Mendapatkan Update"
+			>
+			<intent
+				android:action="android.intent.action.VIEW"
+				android:data="https://t.me/RasiTechChannel"
+				>
+			</intent>
+		</Preference>
+		<Preference
+			android:icon="@7F0806E9"
+			android:title="My Instagram"
+			android:summary="Follow Instagram Developer Untuk Mendapatkan Update"
+			>
+			<intent
+				android:action="android.intent.action.VIEW"
+				android:data="https://Instagram.com/rasi_tech"
+				>
+			</intent>
+		</Preference>
+	</PreferenceScreen>
+</PreferenceScreen>

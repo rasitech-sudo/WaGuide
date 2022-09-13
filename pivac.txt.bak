@@ -1,0 +1,152 @@
+<PreferenceScreen 
+       android:title="About" 
+       android:summary="About WhatsApp"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.settings.About"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Share Number" 
+       android:summary="Share Your WhatsApp Number"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.qrcode.contactqr.ContactQrActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Chat Settings" 
+       android:summary="Open Chat Settings"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.settings.SettingsChatHistory"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Request Account Info" 
+       android:summary="Request Your Account Info"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.report.ReportActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Delete Account" 
+       android:summary="Delete Your WhatsApp Account"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.account.delete.DeleteAccountActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Group Privacy" 
+       android:summary="Change Group Privacy"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.group.GroupAddPrivacyActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Lock WhatsApp Fingerprint" 
+       android:summary="Lock Your WhatsApp"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.authentication.AppAuthSettingsActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Gallery" 
+       android:summary="View WhatsApp Gallery"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.gallerypicker.GalleryPicker"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Group Call" 
+       android:summary="Create Group Call"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.voipcalling.GroupCallParticipantPicker"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Share Location" 
+       android:summary="Share Your Location"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.location.LocationPicker"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Sticker Store" 
+       android:summary="Download Sticker From Store"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.stickers.StickerStoreActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Change Wallpaper" 
+       android:summary="Change Wallpaper Chats"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.settings.chat.wallpaper.WallpaperCurrentPreviewActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Report Problem?" 
+       android:summary="Report WhatsApp Problem"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.support.DescribeProblemActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Share Location" 
+       android:summary="Share Your Location"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.location.LocationPicker"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Group Link QR" 
+       android:summary="Share Group QR Link"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.GroupLinkQrActivity"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Add Member" 
+       android:summary="Add Group Member"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.contact.picker.AddGroupParticipantsSelector"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Contact Picker" 
+       android:summary="Share Your Location"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.contact.picker.PhoneContactsSelector"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="Create 0 Group" 
+       android:summary="Create Group 0 Member"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.group.NewGroup"/> 
+    </PreferenceScreen>  
+    <PreferenceScreen 
+       android:title="WhatsApp Settings" 
+       android:summary="Open WhatsApp Settings"> 
+      <intent 
+         android:targetPackage="com.whatsapp" 
+         android:action="android.intent.action.VIEW" 
+         android:targetClass="com.whatsapp.settings.Settings"/> 
+    </PreferenceScreen>  
