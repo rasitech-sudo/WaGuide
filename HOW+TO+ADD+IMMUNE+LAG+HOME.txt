@@ -1,0 +1,73 @@
+ - ASSALAMUALAIKUM WR WB -
+
+
+
+
+
+sammods privacy di bawah .end method
+
+
+
+.method public static KOYLAGhome(I)I
+    .registers 3
+
+    const-string v1, "KOYLAGhome"
+
+    invoke-static {v1},  Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_a
+    return p0
+.end method
+
+
+ ------------------------------------------------------------------------------------------------------------------------
+ 
+
+Cari Di string  : 👇👇
+
+CachedMessageStore/getMessage/rowId
+
+Taruh Di Bawah Register
+
+
+    const/4 v0, 0x1
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->KOYLAGhome(I)I
+
+    move-result v0
+
+    if-nez v0, :cond_9
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_9
+     
+
+------------------------------------------------------------------------------------------------------------------------
+
+ res -> xml -> sammods xml -> done
+
+	<SwitchPreference
+                android:title="Immune Home Lag"
+                android:key="KOYLAGhome"
+                android:summaryOn="Aktif"
+                android:summaryOff="hapus teks di beranda"
+                android:defaultValue="false" />
+
+------------------------------------------------------------------------------------------------------------------------
+
+NOTE KALO MAU PAKAI WHATSAPP LAIN SELAIN SAMMODS TINGGAL UBAH AJA Lcom/sammods/Privacy DENGAN YOU PRIVASI
+ 
+ [ BY KOCHENK OYEN YT ]
+ 
+ 
+  - WASSALAMUALAIKUM WR WB -

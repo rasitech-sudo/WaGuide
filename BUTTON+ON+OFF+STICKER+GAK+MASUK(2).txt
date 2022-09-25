@@ -1,0 +1,80 @@
+>>classesdex/cari 
+
+MessageUtil/isValidV2E2eMessage/error unknown-message-count, exception=
+
+( tipe pencarian string )
+
+
+>>lalu cari di dalamnya
+
+const/high
+
+cari yang 👇👇 aja
+
+    const/high16 vX, 0x200000
+    
+===============================================================
+===============================================================  
+    
+   invoke-static {vX}, Lcom/sammods/Privacy;->KOY_Sticker_gak_masuk(I)I
+
+    move-result vX
+
+
+
+NOTE : VX IKUTIN CONST HIGH YANG DI DAPAT DI SMALI
+                    ATAU
+IKUTI DI VIDEO !!
+
+===============================================================
+===============================================================
+
+
+.method public static KOY_Sticker_gak_masuk(I)I
+    .registers 3
+
+    const-string v1, "KOY_Sticker_gak_masuk"
+
+    invoke-static {v1}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_b
+
+    const/16 v0, 0xa
+
+    return v0
+
+    :cond_b
+    return p0
+.end method
+
+===============================================================
+===============================================================
+        <SwitchPreference
+            android:title="Button On/Off sticker gak masuk"
+            android:key="KOY_Sticker_gak_masuk"
+            android:defaultValue="false" />
+            
+            
+
+===============================================================
+===============================================================
+
+NOTE : KALO UNTUK WHATSAPP LAIN GANTI
+
+Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+DAN
+
+Lcom/sammods/Privacy
+
+SESUAI BASE WHATSAPP KALIAN
+
+ ══════════════════════════════ 
+  ══════════════════════════════ 
+ 
+BYE : KOCHENK OYEN YT
+THANKS SUPPORT : 
+- ATTACKER BASTARD CREW 🇲🇨
+- MHP WHATSAPP

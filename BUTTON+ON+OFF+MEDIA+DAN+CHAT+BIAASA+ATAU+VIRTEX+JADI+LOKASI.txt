@@ -1,0 +1,86 @@
+              KHUSUS CHAT BARU MEDIA DAN CHAT BIAASA / VIRTEX JADI LOKASI
+=============================================================== 
+=============================================================== 
+Cari : unknownFields
+type pencarian string lalu cari 0x10000 yang ke dua atau lihat text di bawah 👇👇
+
+1. INI MEDIA JADI LOKASI
+  CARI ""0x10000"" YANG KE DUA BUKAN 0X100000000 ATAU SEJENIS NYA
+    
+ NOTE :
+    
+    YANG DI BAWAH VIRTEX JADI LOKASI ITU DIA GAK BISA DI PISAH BUTTON NYA SAMA BUTTON DI ATAS️ ATAU DI BIKIN KAN BUTTON BARU GAK BISA DIA HARUS JADI 1 BUTTON NYA
+    
+2. INI VIRTEX ATAU TEXT BIASA JADI LOKASI BACA ATAS
+
+TARUH DI BAWAH 
+
+.method public static A03(LX/39K;)LX/39K;
+    .registers 4
+
+    iget v2, p0, LX/39K;->A00:I
+
+    const/high16 v1, 0x10000000
+    
+    
+    ini taruh di bawah ""0x10000000"""
+
+
+
+lalu tempel di bawah  0x10000 atau pun 0x10000000 di atas tempel kan ini
+
+
+    invoke-static {v1}, Lcom/sammods/Privacy;->KOY_Media_dan_virtex_jadi_lokasi(I)I
+
+    move-result v1
+
+=============================================================== 
+ 📍 Privacy 📍
+ 
+.method public static KOY_Media_dan_virtex_jadi_lokasi(I)I
+    .registers 3
+
+    const-string v1, "KOY_Media_dan_virtex_jadi_lokasi"
+
+    invoke-static {v1}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_a
+    return p0
+.end method
+===============================================================
+===============================================================
+        <SwitchPreference
+            android:title="Chat Baru Jadi Lokasi"
+            android:key="KOY_Media_dan_virtex_jadi_lokasi"
+            android:defaultValue="false" />
+===============================================================
+===============================================================
+
+NOTE : KALO UNTUK WHATSAPP LAIN GANTI
+
+Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+DAN
+
+Lcom/sammods/Privacy
+
+SESUAI BASE WHATSAPP KALIAN
+
+ ══════════════════════════════ 
+ 
+ KALO KAGAK PAHAM CEK CHANNEL YOUTUBE KU :
+ 
+ https://youtube.com/channel/UCuNDy0-1J2nL0vUaLxhe8Kg
+  ══════════════════════════════ 
+ 
+BYE : KOCHENK OYEN YT
+THANKS SUPPORT : 
+- ⸸ WA IS TRASH ⸸

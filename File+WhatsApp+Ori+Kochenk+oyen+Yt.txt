@@ -1,0 +1,27 @@
+Ke Clacidex Cari Home Activity
+
+Cari ini 👇
+
+Landroid/view/MenuItem;->setShowAsAction(I)V
+
+
+
+Hapus Dari Sini 👇
+
+   invoke-static {p1}, Lcom/sammods/Sam;->setMenuP(Landroid/view/Menu;)Landroid/view/MenuItem;
+
+    move-result-object v0 *(Bagian Privasi)*
+
+    invoke-static {p1}, Lcom/sammods/Sam;->setMenuC(Landroid/view/Menu;)Landroid/view/MenuItem;
+
+    move-result-object v0 *(Bagian New Chat)*
+
+    invoke-static {p1}, Lcom/sammods/Sam;->setMenuU(Landroid/view/Menu;)Landroid/view/MenuItem;
+
+    move-result-object v0 *( Bagian Link 1)*
+
+    invoke-static {p1}, Lcom/sammods/Sam;->setMenuW(Landroid/view/Menu;)Landroid/view/MenuItem;
+
+    move-result-object v0 *(Bagian Link 2)*
+
+Sampai Atas Itu

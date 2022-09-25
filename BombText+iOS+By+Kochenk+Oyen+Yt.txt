@@ -1,0 +1,47 @@
+
+classes.dex > com > sammods > privacy
+
+.method public static KochenkBomb(I)I
+    .registers 2
+
+    const-string v0, "Bomb iOS"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+--------------------------------------------------------------------------------
+
+Cari "Conversantion" Lalu Cari "Landroid/text/method/TextKeyListener;->clear" Taruh Di Bawah Resgister
+
+const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->KochenkBomb(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+    
+--------------------------------------------------------------------------------
+
+<CheckBoxPreference
+                    android:title="Bomb Text iOS"
+                    android:key="Bomb iOS"   
+                    android:defaultValue="false" />

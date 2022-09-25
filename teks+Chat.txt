@@ -1,0 +1,13 @@
+ <TextView
+            android:textSize="21sp"
+            android:textStyle="0x00000002"
+            android:textColor="#FFFFFFFF"
+            android:gravity="0x00000013"
+      android:layout_gravity="0x00000010"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:scaleType="5"
+            android:tint="#FFFFFFFF"
+            android:text="Chats " />

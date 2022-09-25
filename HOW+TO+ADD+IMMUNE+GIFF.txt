@@ -1,0 +1,76 @@
+ - ASSALAMUALAIKUM WR WB -
+
+
+
+
+
+sammods privacy di bawah .end method
+
+
+
+
+
+.method public static ImmuneGIFFKOY(I)I
+    .registers 8
+
+    const-string v0, "ImmuneGIFFKOY"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+
+ ------------------------------------------------------------------------------------------------------------------------
+ 
+ Cari di string 👇👇 habis itu ke classidex cari id nya lalu tempelkan 
+ 
+ view_gif_content_description
+ 
+ 
+ 
+   const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->ImmuneGIFFKOY(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+    
+     
+
+------------------------------------------------------------------------------------------------------------------------
+
+ res -> xml -> sammods xml -> done
+
+		<CheckBoxPreference
+            android:title="Button On/Off Giff"
+            android:key="ImmuneGIFFKOY"
+            android:defaultValue="false"
+            android:summaryOn="ON BUTTON Giff"
+            android:summaryOff="OFF BUTTON Giff" />
+
+------------------------------------------------------------------------------------------------------------------------
+
+NOTE KALO MAU PAKAI WHATSAPP LAIN SELAIN SAMMODS TINGGAL UBAH AJA Lcom/sammods/Privacy DENGAN YOU PRIVASI
+ 
+ [ BY KOCHENK OYEN YT ]
+ 
+ 
+  - WASSALAMUALAIKUM WR WB -

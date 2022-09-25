@@ -1,0 +1,75 @@
+switch preferance 👇
+
+
+
+<SwitchPreference
+        android:title="klik untuk membuka atau mengunci tombol"
+        android:key="Kochenk_oyen_Yt"
+        android:defaultValue="false" />
+  
+              
+Kode :
+
+(Tempel Di Bawah "android:defaultValue="false")
+        
+         
+ Kode 👉   [ android:dependency="Kochenk_oyen_Yt" ]
+        
+        
+          
+            
+ text di bawah ini untuk mau kunci lagi bagian di bawah nya 1 privasi dengan 2 kunci button atau 3 kunci button tinggal bikin aja nama text nya kaya di atas dan di bawah ini 👇👇
+
+
+contoh :
+        <PreferenceCategory android:title="@7F1217E6" />
+        <SwitchPreference
+            android:icon="@7F0805E7"
+            android:title="Sembunyikan centang biru"
+            android:key="C_HideRead"
+            android:defaultValue="false" />
+            
+            
+            ☝️☝️
+            
+ the text below, if you want to lock it again, the part below it is 1 privacy with 2 button locks or 3 button locks, just make the name of the text like above and below
+
+
+example :
+        <PreferenceCategory android:title="@7F1217E6" />
+        <SwitchPreference
+            android:icon="@7F0805E7"
+            android:title="Sembunyikan centang biru"
+            android:key="C_HideRead"
+            android:defaultValue="false" />
+            
+            
+            ☝️☝️
+
+
+<SwitchPreference
+        android:title="klik untuk membuka atau mengunci tombol"
+        android:key="KOY"
+        android:defaultValue="false" />
+        
+        
+  Kode :
+  
+ (Tempel Di Bawah "android:defaultValue="false")
+ 
+ 
+        
+  Kode 👉      [ android:dependency="KOY" ]
+        
+        
+        
+        
+        
+        
+        
+        BYE : KOCHENK OYEN YT
+        THANKS SUPPORT :
+        - MHP WHATSAPP
+        - ATTACKER BASTARD CREW 🇲🇨
+        NOTE : KALO GAK PAHAM CEK CHANNEL
+https://youtube.com/channel/UCuNDy0-1J2nL0vUaLxhe8Kg
